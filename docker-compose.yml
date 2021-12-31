@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  website:
+    build:
+      context: .
+      target: website
+    image: ayee-shell-website
+    container_name: ayee_shell_website
+    ports:
+      - 8080:1313
+    volumes:
+      - $PWD:/workdir/
+    command: server -t  hugo-theme-shell --bind="0.0.0.0"
