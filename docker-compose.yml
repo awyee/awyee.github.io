@@ -7,8 +7,14 @@ services:
       target: website
     image: ayee-shell-website
     container_name: ayee_shell_website
-    ports:
-      - 8080:1313
+    expose:
+      - 1313
     volumes:
       - $PWD:/workdir/
     command: server -t  hugo-theme-shell --bind="0.0.0.0"
+
+networks:
+  default:
+    external: true
+    name: nginx_default
+

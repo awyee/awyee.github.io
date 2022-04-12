@@ -29,7 +29,7 @@ ignoreErrors = ["error-remote-getjson"]
   # ...
   # Note: result of the tree command
   userName = "alexyee"
-  pcName = "cambridgeMA"
+  pcName = "somewhere-on-the-road"
   workDir = "website"
   profile = "hello.txt"
 
@@ -76,7 +76,7 @@ ignoreErrors = ["error-remote-getjson"]
   files = [ 
     ["LinkedIn", "https://www.linkedin.com/in/alex-yee/"],
     ["GitHub", "https://github.com/awyee"],
-    ["Tagup", "https://www.tagup.io/company"],
+    ["Roadtrip blog", "https://medium.com/@alexyee10"],
   ]
 
 [module]
